@@ -25,3 +25,4 @@ function findLongestWord(param) {
 let solucion = findLongestWord(avengers);
 console.log(solucion);
 
+let funcion = ("texto", [], {}, true, false, "etc")
