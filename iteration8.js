@@ -14,5 +14,20 @@ const counterWords = [
     'code'
   ];
   function repeatCounter(param) {
-    // insert code
+    
+    let contador = 0
+    
+    for (let i = 0; i < param.length; i++) {
+        for (let j = i + 1; j < param.length; j++) {
+            if (param[i] === param[j]) {
+            contador += 1
+        }
+      
+        }
+    }
+    return contador
+
   }
+
+  let numRepetitions = repeatCounter(counterWords)
+  console.log(numRepetitions)
